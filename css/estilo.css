@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: rgba(26, 202, 26, 0.7);
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+footer {
+    background-color: #204956;
+}
+
+.parrafo {
+    width: 500px;
+    background-color: #90EE90;
+    color: #00f;
+    text-align: center;
+}
+
+.parrafo2 {
+    width: 500px;
+    background-color: #820f65;
+    color: #ffffff;
+    text-align: right;
+}
+
+.nuevo {
+    height: 50px;
+    margin: 0 auto;
+    background-color: #deb887;
+}
+
+.contenido {
+    height: 300px;
+    background-color: #ffbb00;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    margin-top: 10px;
+    border: 2px solid #1bb432;
+}
+
+article {
+    width: 50%;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid #8a2be2;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* Estilos para las tarjetas de perfil */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+}
+
+.profile {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.encabezado {
+    text-align: center;
+    background-color: #eaf914;
+    color: #046118;
+}
+
+.texto {
+    font-size: 30px;
+    font-weight: bold;
+    color: #6b098c;
+    line-height: 200px;
+}
+
+img {
+    width: 200px;
+}
